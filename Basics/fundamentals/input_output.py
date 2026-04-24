@@ -52,3 +52,19 @@ print(f"Add = {num1 + num2}")
 print(f"Mul = {num1*num2}")
 print(f"div = {num1/num2}")
 print(f"Not defined... {num1/0}") #solved the number/0 problem 
+
+# PROGRAM 3 — Temperature Converter
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"{celsius}°C = {fahrenheit:.1f}°F")
+
+# Ask for: name, college, target salary (LPA), commitment months
+# Print: "Shivansh Garg from GITM is committing 14 months
+#         to reach ₹XX LPA by June 2027."
+
+nm = input("Enter your name: ")
+college = input("Enter your college name: ")
+target_salary = input("Enter your targeted salary: ")
+months_commited  = input("Enter commitment months: ")
+
+print(f"{nm} from {college} is commiting {months_commited} months to reach {target_salary} lpa by 2027")
