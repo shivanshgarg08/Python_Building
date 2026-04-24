@@ -48,5 +48,26 @@ print(a,b)
 Difference: 10
 Product: 200'''
 x ,y = map(int,input('Enter the two numbers').split())
-print(x+y,x-y,x*y)
+print("Sum:", x+y)
+print("Difference:", x-y)
+print("Product:", x*y)
 
+# Fixing Broken Codes
+#1
+name = input("Enter name: ")
+age = input("Enter age: ")
+print("My name is" ,name, "and I am", age, "years old")
+#2 
+x, y = map(int, input("Enter two numbers: ").split())
+print(x + y)
+
+# 3
+a, b, c = map(int, input("Enter three numbers: ").split())
+print("Sum is:", a + b + c)
+
+# 4
+j = int(input("Enter number: "))
+print(j * 2)
+
+a, b = map(int, "10 20".split())
+print(a * b)
